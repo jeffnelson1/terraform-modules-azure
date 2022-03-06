@@ -32,8 +32,8 @@ variable "vnet_name" {
   type        = map(any)
   description = "Virtual Network Name selected by environment and region"
   default = {
-    "sharedservices-eastus2"   = "vnet-eastus2-sharedservices-01"
-    "sharedservices-centralus" = "vnet-centralus-sharedservices-01"
+    "ss-eastus2"   = "vnet-e2-ss-01"
+    "ss-centralus" = "vnet-cu-ss-01"
   }
 }
 
@@ -41,8 +41,8 @@ variable "vnet_rg_name" {
   type        = map(any)
   description = "Virtual Network Resource Group Name selected by environment and region"
   default = {
-    "sharedservices-eastus2"   = "rg-network-eastus2-sharedservices"
-    "sharedservices-centralus" = "rg-network-centralus-sharedservices"
+    "ss-eastus2"   = "rg-network-e2-ss"
+    "ss-centralus" = "rg-network-cu-ss"
   }
 }
 

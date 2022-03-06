@@ -48,8 +48,8 @@ No modules.
 | <a name="input_rsv_rg_name"></a> [rsv\_rg\_name](#input\_rsv\_rg\_name) | Resource Group Name of the Recovery Services Vault | `string` | n/a | yes |
 | <a name="input_secondary_location"></a> [secondary\_location](#input\_secondary\_location) | Recovery Services Vault's Secondary Location | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | Resource Tags | `map(any)` | n/a | yes |
-| <a name="input_vnet_name"></a> [vnet\_name](#input\_vnet\_name) | Virtual Network Name selected by environment and region | `map(any)` | <pre>{<br>  "sharedservices-centralus": "vnet-centralus-sharedservices-01",<br>  "sharedservices-eastus2": "vnet-eastus2-sharedservices-01"<br>}</pre> | no |
-| <a name="input_vnet_rg_name"></a> [vnet\_rg\_name](#input\_vnet\_rg\_name) | Virtual Network Resource Group Name selected by environment and region | `map(any)` | <pre>{<br>  "sharedservices-centralus": "rg-network-centralus-sharedservices",<br>  "sharedservices-eastus2": "rg-network-eastus2-sharedservices"<br>}</pre> | no |
+| <a name="input_vnet_name"></a> [vnet\_name](#input\_vnet\_name) | Virtual Network Name selected by environment and region | `map(any)` | <pre>{<br>  "ss-centralus": "vnet-cu-ss-01",<br>  "ss-eastus2": "vnet-e2-ss-01"<br>}</pre> | no |
+| <a name="input_vnet_rg_name"></a> [vnet\_rg\_name](#input\_vnet\_rg\_name) | Virtual Network Resource Group Name selected by environment and region | `map(any)` | <pre>{<br>  "ss-centralus": "rg-network-cu-ss",<br>  "ss-eastus2": "rg-network-e2-ss"<br>}</pre> | no |
 
 ## Outputs
 

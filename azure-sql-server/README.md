@@ -1,4 +1,4 @@
-# Azure SQL Database Terraform Module
+# Azure SQL Server Terraform Module
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
